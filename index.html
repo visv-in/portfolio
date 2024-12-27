@@ -4,15 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viswa Sai Gubbala | Front-end web developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous">
-    <style>
-        .highlight_is {
-            color: var(--bs-blue);
-        }
-    </style>
+    <link href="./css/bootstrap.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="container">
@@ -27,22 +21,45 @@
           </ul>
         </header>
       </div>
-      <div class="px-4 py-5 my-5 text-center">
-        <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-        <h1 class="display-5 fw-bold text-body-emphasis">Viswa Sai Gubbala</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-2">
-            Front-end web developer
-          </p>
-          <p class="lead">I am from Bharat 🇮🇳</p>
-          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-          </div> -->
+      <main>
+        <div class="px-4 py-5 my-5 text-center">
+          <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+          <h1 class="display-5 fw-bold text-body-emphasis">Viswa Sai Gubbala</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-2">
+              Front-end web developer
+            </p>
+            <p class="lead mb-4">I am from Bharat 🇮🇳</p>
+            <div class="gap-3 d-flex justify-content-center">
+              <a target="_blank" href="https://linkedin.com/in/viswasai">
+                <img src="icons/linkedin.svg" alt="linkedin" width="32" height="32">
+              </a>
+              <a target="_blank" href="https://github.com/visv-in">
+                <img src="icons/github.svg" alt="github" width="32" height="32">
+              </a>
+              <a target="_blank" href="https://x.com/_viswasai">
+                <img src="icons/twitter-x.svg" alt="twitter-x" width="32" height="32">
+              </a>
+              <a href="mailto:hi@visv.in">
+                <img src="icons/envelope.svg" alt="envelope" width="32" height="32">
+              </a>
+              <!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+            </div>
+          </div>
         </div>
+        <div class="container my-5 py-5 border-top">
+          <h2 class="text-center">Work Experience</h2>
+          <canvas id="myChart" class="mx-5 py-2 px-5"></canvas>
+        </div>
+      </main>
+      <div class="container">
+        <footer class="py-3 my-4 border-top">
+          <p class="text-end text-body-secondary">© <span id="fillYear"></span> visv.in</p>
+        </footer>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
