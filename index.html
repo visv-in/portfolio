@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viswa Sai Gubbala | Front-end web developer</title>
-    <link href="./css/bootstrap.min.css"  rel="stylesheet" />
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viswa Sai Gubbala | Front-end web developer</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-auto link-body-emphasis text-decoration-none">
-            <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
-            <span class="fs-4">V<span class="highlight_is">IS</span>V</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-          </ul>
-        </header>
-      </div>
-      <main>
-        <div class="px-4 py-5 my-5 text-center">
-          <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-          <h1 class="display-5 fw-bold text-body-emphasis">Viswa Sai Gubbala</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-2">
-              Front-end web developer
-            </p>
-            <p class="lead mb-4">I am from Bharat 🇮🇳</p>
-            <div class="gap-3 d-flex justify-content-center">
-              <a target="_blank" href="https://linkedin.com/in/viswasai">
-                <img src="icons/linkedin.svg" alt="linkedin" width="32" height="32">
-              </a>
-              <a target="_blank" href="https://github.com/visv-in">
-                <img src="icons/github.svg" alt="github" width="32" height="32">
-              </a>
-              <a target="_blank" href="https://x.com/_viswasai">
-                <img src="icons/twitter-x.svg" alt="twitter-x" width="32" height="32">
-              </a>
-              <a href="mailto:hi@visv.in">
-                <img src="icons/envelope.svg" alt="envelope" width="32" height="32">
-              </a>
-              <!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid my-5 py-5 bg-light">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 mx-auto">
-                <h2 class="text-center">Work Experience</h2>
-                <canvas id="myChart" class="py-2"></canvas>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+      <a href="/" class="d-flex align-items-center me-auto link-body-emphasis text-decoration-none">
+        <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+        <span class="fs-4">V<span class="highlight_is">IS</span>V</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+      </ul>
+    </header>
+  </div>
+  <main>
+    <div class="px-4 py-5 text-center bg-success-subtle">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 order-1 order-lg-0">
+            <h1 class="display-5 fw-bold text-body-emphasis heading_name">Viswa Sai Gubbala</h1>
+            <div class="text-center mx-auto">
+              <p class="lead mb-2">
+                Front-end web developer
+              </p>
+              <p class="lead mb-4">I am from Bharat 🇮🇳</p>
+              <div class="gap-3 d-flex justify-content-center">
+                <a target="_blank" href="https://linkedin.com/in/viswasai">
+                  <img src="icons/linkedin.svg" alt="linkedin" width="32" height="32">
+                </a>
+                <a target="_blank" href="https://github.com/visv-in">
+                  <img src="icons/github.svg" alt="github" width="32" height="32">
+                </a>
+                <a target="_blank" href="https://x.com/_viswasai">
+                  <img src="icons/twitter-x.svg" alt="twitter-x" width="32" height="32">
+                </a>
+                <a href="mailto:hi@visv.in">
+                  <img src="icons/envelope.svg" alt="envelope" width="32" height="32">
+                </a>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 order-0 order-lg-1  mb-2 mb-lg-0">
+            <img class="d-block w-100" src="./images/viswa-sai.webp" alt="Portfolio Image">
+          </div>
         </div>
-        <div class="container my-5 py-5">
-          <h2 class="text-center">Certifications</h2>
-          <ul class="list-group col-md-6 text-center mt-4 mx-auto">
-            <li class="list-group-item">
-              <a target="_blank" href="https://www.freecodecamp.org/certification/visvxplore/javascript-algorithms-and-data-structures">
-                freecodecamp - Javascript algorithms and data structures
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a target="_blank" href="./images/Viswa Sai-JustJavaScript.com-certificate.pdf">
-                justjavascript - mental models
-              </a>
-            </li>
-          </ul>
-      </main>
-      <div class="container">
-        <footer class="py-3 my-4 border-top">
-          <p class="text-end text-body-secondary">© <span id="fillYear"></span> visv.in</p>
-        </footer>
       </div>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/chart.js"></script>
-    <script src="./js/main.js"></script>
+    </div>
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2 class="text-center">Work Experience</h2>
+            <p class="text-center">(yearly usage)</p>
+            <canvas id="myChart" class="py-2" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 bg-info-subtle">
+      <div class="container">
+        <h2 class="text-center">Certifications</h2>
+        <ul class="list-group col-md-6 mt-4 mx-auto">
+          <li class="list-group-item">
+            1. <a target="_blank"
+              href="https://www.freecodecamp.org/certification/visvxplore/javascript-algorithms-and-data-structures">
+              Javascript algorithms and data structures
+            </a> by freecodecamp
+          </li>
+          <li class="list-group-item">
+            2. <a target="_blank" href="./pdf/Viswa Sai-JustJavaScript.com-certificate.pdf">
+              Mental models
+            </a>by Dan Ambrov (<a target="_blank" href="https://justjavascript.com/">justjavascript.com</a>)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div class="container">
+    <footer class="py-3 border-top">
+      <p class="text-end text-body-secondary">© <span id="fillYear"></span> visv.in</p>
+    </footer>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/chart.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
